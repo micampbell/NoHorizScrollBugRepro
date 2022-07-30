@@ -12,7 +12,7 @@
             <Image
                 Source="dotnet_bot.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="600"
+                WidthRequest="600"
                 HorizontalOptions="Start" />
 
             <!--<Label
