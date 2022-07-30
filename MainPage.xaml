@@ -4,18 +4,18 @@
              x:Class="NoHorizScrollBugRepro.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
+        <!--<VerticalStackLayout
             Spacing="25"
             Padding="30,0"
-            VerticalOptions="Center">
+            VerticalOptions="Center">-->
 
             <Image
                 Source="dotnet_bot.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+                HeightRequest="600"
+                HorizontalOptions="Start" />
 
-            <Label
+            <!--<Label
                 Text="Hello, World!"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
@@ -35,7 +35,7 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
-        </VerticalStackLayout>
+        </VerticalStackLayout>-->
     </ScrollView>
 
 </ContentPage>
